@@ -107,7 +107,7 @@ jobs:
           Write-Host "==================`n"
           
           # Keep runner active indefinitely (or until manually cancelled)
-          while ($true) {
+          hile ($true) {
               Write-Host "[$(Get-Date)] RDP Active - Use Ctrl+C in workflow to terminate"
               Start-Sleep -Seconds 300
           }
